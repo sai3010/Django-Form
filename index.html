@@ -12,7 +12,7 @@
 
 <body>
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">FACULTY COLLECTION FORM</a>
+        <a class="navbar-brand" href="#">FACULTY INFORMATION COLLECTION</a>
     </nav>
     <div class="container">
         <div class="row">
@@ -69,6 +69,7 @@
                 <hr>
 
                 <h1 style="text-align: center;">Experience in Industry</h1>
+                <div id="exp1">
                 <div class="form-group">
                     <label for="exampleInputEmail1"> Name of company</label>
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name of company">
@@ -85,6 +86,11 @@
                     <label for="exampleInputEmail1">Date of completion</label>
                     <input type="Date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Field/Branch">
                 </div>
+            </div>
+            <div id="exp2">
+            	
+            </div>
+            <button onclick="add()">Add More</button>
                 <hr>
 
                 <h1 style="text-align: center;">Experience in Teaching (non RNSIT)</h1>
@@ -115,6 +121,16 @@
                     <label for="exampleInputEmail1"> Date of joining</label>
                     <input type="Date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Date of joining">
                 </div>
+                <select>
+                	<option>CSE</option>
+                	<option>ECE</option>
+                	<option>EEE</option>
+                	<option>ISE</option>
+                	<option>EIE</option>
+                	<option>MECH</option>
+                	<option>CIVIL</option>
+                	<option>MCA</option>
+                </select>
                 <hr>
 
                 <h1 style="text-align: center;">Experience in Research</h1>
@@ -215,6 +231,14 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    	function add() {
+    var div = document.getElementById("exp2");
+    var name = document.createElement("INPUT");    
+    name.setAttribute("type", "text");                   
+	document.getElementById("exp2").appendChild(name);           
+	}
+    </script>
 </body>
 
 </html>
