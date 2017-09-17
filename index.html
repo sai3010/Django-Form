@@ -1,195 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  </head>
-  <body>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">FACULTY COLLECTION FORM</a>
+    </nav>
     <div class="container">
-    	<div class="row">
-    		<form>
-    			<h1 style="text-align: center;">Personal Details</h1>
-    			<div class="form-group">
-    <label for="exampleInputEmail1">Full Name</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Full Name">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Designation</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Designation">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address (rnsit.ac.in addresses only)</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-  </div>
+        <div class="row">
+            <form>
+                <h1 style="text-align: center;">Personal Details</h1>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Full Name</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Full Name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Designation</label>
+                    <select>
+                        <option>Assistant Professor</option>
+                        <option>Associate Professor</option>
+                        <option>Professor</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address (rnsit.ac.in addresses only)</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <hr>
 
-  <h1 style="text-align: center;">Education Details</h1>
-    			<div class="form-group">
-    <label for="exampleInputEmail1">Type (Bachelors, Masters, Doctoral, Postdoctoral)</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type (Bachelors, Masters, Doctoral, Postdoctoral)">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">College Name</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="College Name">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1"> University Name</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" University Name">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Field/Branch</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Field/Branch">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Date of beginning</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Date of beginning">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1"> Date of completion (will be null if currently pursuing)</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Date of completion (will be null if currently pursuing)">
-  </div>
+                <h1 style="text-align: center;">Education Details</h1>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Type (Bachelors, Masters, Doctoral, Postdoctoral)</label>
+                    <select>
+                        <option>B.E</option>
+                        <option>M.E</option>
+                        <option>MTECH</option>
+                        <option>PHD</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">College Name</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="College Name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> University Name</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" University Name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Field/Branch</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Field/Branch">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Date of beginning</label>
+                    <input type="Date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Date of completion (will be null if currently pursuing)</label>
+                    <input type="Date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Date of completion (will be null if currently pursuing)">
+                </div>
+                <hr>
 
-   <h1 style="text-align: center;">Experience in Industry</h1>
-    			<div class="form-group">
-    <label for="exampleInputEmail1"> Name of company</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name of company">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Position in company</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Position in company">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1"> Date of joining</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" University Name">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Date of completion</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Field/Branch">
-  </div>
+                <h1 style="text-align: center;">Experience in Industry</h1>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Name of company</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name of company">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Position in company</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Position in company">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Date of joining</label>
+                    <input type="Date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" University Name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Date of completion</label>
+                    <input type="Date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Field/Branch">
+                </div>
+                <hr>
 
-  <h1 style="text-align: center;">Experience in Teaching (non RNSIT)</h1>
-    			<div class="form-group">
-    <label for="exampleInputEmail1">  Name of college</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name of college">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Position</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Position">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1"> Department</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Department">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1"> Date of joining</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Date of joining">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1"> Date of completion</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Date of completion">
-  </div>
+                <h1 style="text-align: center;">Experience in Teaching (non RNSIT)</h1>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Name of college</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name of college">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Position</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Position">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Department</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Department">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Date of joining</label>
+                    <input type="Date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Date of joining">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Date of completion</label>
+                    <input type="Date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Date of completion">
+                </div>
+                <hr>
 
-   <h1 style="text-align: center;">Experience in RNSIT</h1>
-    			<div class="form-group">
-    <label for="exampleInputEmail1">   Date of joining</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Date of joining">
-  </div>
+                <h1 style="text-align: center;">Experience in RNSIT</h1>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Date of joining</label>
+                    <input type="Date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Date of joining">
+                </div>
+                <hr>
 
-   <h1 style="text-align: center;">Experience in Research</h1>
-    			<div class="form-group">
-    <label for="exampleInputEmail1">  Name of institution</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name of institution">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">    Area of interest</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Area of interest">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">  Date of joining</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Date of joining">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">   Date of completion</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Date of completion">
-  </div>
-  
-  <h1 style="text-align: center;">Projects</h1>
-    			<div class="form-group">
-    <label for="exampleInputEmail1">  Name of project</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name of project">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">   Brief Description</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Brief Description">
-  </div>
+                <h1 style="text-align: center;">Experience in Research</h1>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Name of institution</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name of institution">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Area of interest</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Area of interest">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Date of joining</label>
+                    <input type="Date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Date of joining">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Date of completion</label>
+                    <input type="Date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Date of completion">
+                </div>
+                <hr>
 
-   <h1 style="text-align: center;">Paper Published</h1>
-    			<div class="form-group">
-    <label for="exampleInputEmail1">   Title</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Title">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1"> Authors</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Authors">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1"> Abstract</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Abstract">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Name of Journal</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name of Journal">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1"> Year of publication</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Year of publication">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1"> Link to paper</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Link to paper">
-  </div>
+                <h1 style="text-align: center;">Projects</h1>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Name of project</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name of project">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Brief Description</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <hr>
 
-  <h1 style="text-align: center;">Books</h1>
-    			<div class="form-group">
-    <label for="exampleInputEmail1"> Name of book</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name of book">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1"> Authors</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Authors">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1"> Year of publication</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Year of publication">
-  </div>
-  
-  <h1 style="text-align: center;">Achievements</h1>
-    			<div class="form-group">
-    <label for="exampleInputEmail1">Description</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Description">
-  </div>
+                <h1 style="text-align: center;">Paper Published</h1>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Title</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Title">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Authors</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Authors">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Abstract</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Name of Journal</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name of Journal">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Year of publication</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Year of publication">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Link to paper</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Link to paper">
+                </div>
+                <hr>
 
-  <h1 style="text-align: center;">Areas of Interest</h1>
-    			<div class="form-group">
-    <label for="exampleInputEmail1"> Name of area</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name of area">
-  </div>
- 
- 
+                <h1 style="text-align: center;">Books</h1>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Name of book</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name of book">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Authors</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Authors">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Year of publication</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Year of publication">
+                </div>
+                <hr>
 
+                <h1 style="text-align: center;">Achievements</h1>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Description</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
 
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-    	</div>
+                <h1 style="text-align: center;">Areas of Interest</h1>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Name of area</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name of area">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
     </div>
+    <br>
+    <footer class="navbar navbar-dark bg-dark">
+        <p class="navbar-brand" style="text-align: center;">RNSIT </p>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>
